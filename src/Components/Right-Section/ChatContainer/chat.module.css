@@ -1,0 +1,91 @@
+.container {
+    height: 80vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    overflow: auto;
+    max-width: 80vw;
+    /* width: 80vw; */
+}
+
+form {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.inputContainer {
+    display: flex;
+    width: 100%;
+}
+
+.input {
+    height: 40px;
+    width: 80%;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding-left: 15px;
+    font-size: large;
+    padding: auto;
+}
+
+
+.button {
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: large;
+    padding: auto;
+    width: 10%;
+    color: white;
+    min-width: 50px;
+    background-color: rgb(46, 138, 199);
+    transition: all 0.4s;
+}
+
+.button:hover {
+    background-color: rgba(6, 81, 218);
+}
+
+.message {
+    display: block;
+    padding: 2px 4px;
+    margin: 5px;
+    border-radius: 0 10px 10px 10px;
+    width: fit-content;
+    font-size: larger;
+}
+
+.emojiContainer {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+form p {
+    cursor: pointer;
+    font-size: xx-large;
+}
+
+.userList {
+    position: absolute;
+    bottom: 50px;
+    background: white;
+    list-style-type: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.userList li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.userList li:hover {
+    background-color: #f0f0f0;
+}

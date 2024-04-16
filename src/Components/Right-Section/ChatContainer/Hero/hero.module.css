@@ -1,0 +1,28 @@
+.hero{
+    display: inline-flex;
+    align-items: center;
+    /* box-shadow: 10px 10px 10px 10px white; */
+}
+.imgDiv{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.info{
+    font-size: large;
+    padding: 0 5px;
+    
+}
+.message{
+    border-radius: 0px 10px 10px 10px;
+    background-color: whitesmoke;
+    padding: 10px 20px;
+    box-shadow: 1px 4px 10px 1px grey;
+}

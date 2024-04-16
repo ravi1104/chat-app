@@ -1,0 +1,25 @@
+.hero{
+    display: inline-flex;
+    align-items: center;
+}
+.imgDiv{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgb(168, 107, 107);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 600;
+
+}
+.info{
+    font-size: large;
+    padding: 0 5px;
+    
+}
+h5{
+    color: green;
+}
