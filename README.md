@@ -2,6 +2,7 @@
 
 This is a single-page chat application built using ReactJS. It allows users to type messages into a textbox and send them, with the messages displayed above the textbox.
 
+[Hosted Link](https://chat-app-gamma-henna.vercel.app/)
 ## Basic Task
 
 In this assignment, the main goal was to create a simple chat application with the following features:
